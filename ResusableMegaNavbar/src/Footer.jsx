@@ -10,8 +10,8 @@ export function Footer(){
         <li><p> copyright © {new Date().getFullYear()}</p></li>
       </ul>
       <ul>
-        <li></li>
-        <li></li>
+        <li><a href="#">un link</a></li>
+        <li><a href="#">un link</a></li>
       </ul>
     </footer>
   )
