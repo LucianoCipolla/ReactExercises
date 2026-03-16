@@ -197,6 +197,23 @@ body {
   color: #333;
 }
 
+
+#color-picker-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+input[type="color"] {
+    position: absolute;
+    margin-top: 50px;
+    height: 40px;
+}
+
+
 footer {
   background-color: #222;
   color: #fff;
