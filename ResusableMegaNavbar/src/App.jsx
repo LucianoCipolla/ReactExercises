@@ -4,6 +4,7 @@ import { App as Card } from "./Card"
 import { MoodBoard } from "./MoodBoard" 
 import { ToggleApp } from "./ToggleTextButton"
 import { ColorPicker } from "./ColorPickerApp"  
+import { FruitsSearch } from "./fruitSearchApp"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <MoodBoard />
       <ToggleApp />
       <ColorPicker />
+      <FruitsSearch />
       <Footer />
     </div>
   )
