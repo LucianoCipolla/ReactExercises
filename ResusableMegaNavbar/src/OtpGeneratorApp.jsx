@@ -18,19 +18,19 @@ export const OTPGenerator = () => {
             return
         }
         const interval = setInterval(()=>{
-            setScnds(prev => prev - 1)
+            setScnds(prev => {
+                const newScnds = prev - 1
+                if(newScnds === 0){
+                    setAvaliable(false)
+                    setExpired(true)
+                    setOtp(null)
+                }
+                return newScnds
+            })
         },1000)
     
         return ()=> clearInterval(interval)
     },[isAvailable])
-    
-    useEffect(()=>{
-        if(scnds===0){
-        setAvaliable(false)
-        setExpired(true)
-        setOtp(null)
-        }
-    },[scnds])
 
 
 
