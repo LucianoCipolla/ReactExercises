@@ -5,6 +5,7 @@ import { MoodBoard } from "./MoodBoard"
 import { ToggleApp } from "./ToggleTextButton"
 import { ColorPicker } from "./ColorPickerApp"  
 import { FruitsSearch } from "./fruitSearchApp"
+import { OTPGenerator } from "./OtpGeneratorApp"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <ToggleApp />
       <ColorPicker />
       <FruitsSearch />
+      <OTPGenerator />
       <Footer />
     </div>
   )

@@ -243,6 +243,85 @@ search-container {
 
 
 
+.container {
+  margin: auto;
+  background: #1a1a2e;
+  border: 1px solid #2a2a4a;
+  border-radius: 20px;
+  padding: 48px 40px;
+  width: 920px;
+  text-align: center;
+  box-shadow: 0 0 40px rgba(99, 102, 241, 0.15);
+  margin-bottom: 40px;
+}
+
+#otp-title {
+  color: #a5b4fc;
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+#otp-display {
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  color: #e2e8f0;
+  background: #0f0f1a;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 16px;
+  min-height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: clamp(1rem, 4vw, 2.4rem);
+}
+
+#otp-timer {
+  min-height: 28px;
+  font-size: 0.95rem;
+  color: #6366f1;
+  margin-bottom: 32px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+#otp-timer:not(:empty) {
+  color: #f59e0b;
+}
+
+#generate-otp-button {
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 14px 36px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+  letter-spacing: 0.05em;
+  transition: opacity 0.2s, transform 0.1s;
+}
+
+#generate-otp-button:hover:not(:disabled) {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+#generate-otp-button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  transform: none;
+}
+
+
+
+
+
 footer {
   background-color: #222;
   color: #fff;
