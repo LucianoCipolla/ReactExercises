@@ -6,6 +6,7 @@ import { ToggleApp } from "./ToggleTextButton"
 import { ColorPicker } from "./ColorPickerApp"  
 import { FruitsSearch } from "./fruitSearchApp"
 import { OTPGenerator } from "./OtpGeneratorApp"
+import { SuperheroForm } from "./SuperHeroApplicationForm"
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <ColorPicker />
       <FruitsSearch />
       <OTPGenerator />
+      <SuperheroForm />
       <Footer />
     </div>
   )
