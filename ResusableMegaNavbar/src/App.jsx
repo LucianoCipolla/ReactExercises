@@ -7,6 +7,7 @@ import { ColorPicker } from "./ColorPickerApp"
 import { FruitsSearch } from "./fruitSearchApp"
 import { OTPGenerator } from "./OtpGeneratorApp"
 import { SuperheroForm } from "./SuperHeroApplicationForm"
+import { EventRSVPForm } from "./RSVPForm"
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <FruitsSearch />
       <OTPGenerator />
       <SuperheroForm />
+      <EventRSVPForm />
       <Footer />
     </div>
   )
