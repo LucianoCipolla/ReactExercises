@@ -8,6 +8,7 @@ import { FruitsSearch } from "./fruitSearchApp"
 import { OTPGenerator } from "./OtpGeneratorApp"
 import { SuperheroForm } from "./SuperHeroApplicationForm"
 import { EventRSVPForm } from "./RSVPForm"
+import { ShoppingList } from "./ShoppingList"
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <OTPGenerator />
       <SuperheroForm />
       <EventRSVPForm />
+      <ShoppingList />
       <Footer />
     </div>
   )

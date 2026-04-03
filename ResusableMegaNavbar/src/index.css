@@ -378,6 +378,71 @@ search-container {
 
 
 
+main,
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  background-color: var(--light-grey);
+  width: 90%;
+  margin: 20px;
+  padding: 10px;
+}
+
+h1 {
+  color: var(--dark-grey);
+}
+
+form {
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+  width: 100px;
+  margin: 3px;
+  color: var(--dark-grey);
+  background-color: var(--golden-yellow);
+  background-image: linear-gradient(#fecc4c, #ffac33);
+  border-color: var(--golden-yellow);
+  border-width: 3px;
+}
+
+button:hover {
+  background-image: linear-gradient(#ffcc4c, #f89808);
+}
+
+input {
+  color: var(--dark-grey);
+  margin-left: 5px;
+  padding: 3px;
+}
+
+li {
+  text-align: left;
+  margin: 10px 0;
+}
+
+.selected-item {
+  font-weight: bold;
+}
+
+@media (min-width: 425px) {
+  .container {
+    width: 400px;
+  }
+}
+
+
+
+
 footer {
   background-color: #222;
   color: #fff;
