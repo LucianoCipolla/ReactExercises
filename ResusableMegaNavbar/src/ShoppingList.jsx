@@ -32,7 +32,7 @@ export const ShoppingList = () => {
         prev.includes(item) ? prev.filter((i) => i !== item) : [...prev, item],
       );
     },
-    [setSelectedItems],
+    [setSelectedItems],//Podria dejar el array de dependencias vacio, ya que setSelectedItems es una funcion estable que no cambia entre renders. Sin embargo, incluirla en el array de dependencias es una buena practica para asegurarse de que toggleItem se actualice correctamente si setSelectedItems llegara a cambiar en el futuro.
   );
 
   if (prevToggleItem !== toggleItem) {
